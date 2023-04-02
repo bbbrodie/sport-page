@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Main {
   display: flex;
-  flex-direction: column;
+  overflow: hidden;
+}
+.Header {
+  width: 100%;
+  min-width: 100%;
+  height: auto;
+  object-fit: cover;
+	display: flex;
+  margin-top: 60px;
+}
+
+
+.Header h1 {
+	font-variant: small-caps;
+}
+.Main {
+	display: flex;
+}
+.MainSection {
+	display: flex;
+	flex-direction: column;
+}
+.MainSection h2 {
+	font-variant: small-caps;
+}
+.AsideSection {
+	color: #d3d3d3;
+	background-color: #000000;
+	display: flex;
+	flex-direction: column;
+}
+.Footer {
+  clear: both;
+  color: #d3d3d3;
+  background-color: #000000;
+  width: 100%;
+}
+/* Navigation */
+.Navigation {
+  color: #d3d3d3;
+  background-color: #000000;
+  width: 100%;
+  padding: 5px;
+  align: middle;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+ul.NavigationMenus {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0;
 }
-
-.App-link {
-  color: #61dafb;
+ul.NavigationMenus li {
+  list-style: none;
+  margin-right: 30px;
+  
 }
+ul.NavigationMenus li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  padding-bottom: 5px;
+}
+ul.NavigationMenus li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #fff;
+  height: 1px;
+  width: 0%;
+  bottom: 0;
+  transition: 0.3s;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+}
+.activeNavItem a:after{
+  content: "";
+  display: block;
+  position: absolute;
+  background: #fff;
+  height: 1px;
+  width: 100% !important;
+  bottom: 0;
+  transition: 0.3s;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+  color:hotpink !important;
+}
+li.activeNavItem a:after{
+  background: #f2f2f270!important;
+} 
+ul.NavigationMenus li a:hover:after{
+  width: 100%;
+  transition: 0.3s;
+}
+/* End Navigation */
+/* Links */
+a {
+  text-decoration: none;
+  color: #00FFFF;
+}
+a:visited {
+	color: #FF00FF;
+}
+a:hover {
+	color: #AAFFFF;
+}
+a:focus {
+	color: #AAFFFF;
+}
+a:active {
+	color: #00FFFF;
+}
+/* End Links*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+
+  .Main {
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+  .Header {
+    margin-top: 20px;
   }
+
 }
