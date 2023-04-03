@@ -3,6 +3,7 @@ import Welcome from "./Welcome";
 import Highlights from "./Highlights";
 import News from "./News";
 import PlayerStats from "./PlayerStats"
+import ContactUs from "./ContactUs"
 
 const Main = () => {
     return (
@@ -11,6 +12,7 @@ const Main = () => {
             <Highlights />
             <PlayerStats />
             <News />
+            <ContactUs />
         </div>
     );
 };
