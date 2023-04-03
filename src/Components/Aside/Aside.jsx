@@ -5,7 +5,7 @@ import SeasonLadder from "./SeasonLadder";
 
 const Aside = () => {
     return (
-        <div>
+        <div className="AsideSection">
             <BuyTickets />
             <BettingOdds />
             <SeasonLadder />

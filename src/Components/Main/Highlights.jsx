@@ -2,7 +2,7 @@ import React from "react";
 
 const Highlights = () => {
     return (
-        <div className="Highlights">
+        <div className="Highlights" id="Highlights">
             <iframe
                 width="560"
                 height="315"
