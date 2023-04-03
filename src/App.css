@@ -51,6 +51,22 @@
 }
 /* End iframe */
 
+/* Table Styling */
+table {
+  margin: 40px;
+  width: 400px;
+  height: 100px;
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+}
+th {
+  border:  1px solid rgb(0, 0, 0);
+}
+td {
+  border:  1px solid rgb(0, 0, 0);
+}
+/* End Table Styling */
+
 .Footer {
   clear: both;
   color: #d3d3d3;
