@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sport-page/static/css/main.811d8829.css",
-    "main.js": "/sport-page/static/js/main.4bb232b8.js",
-    "static/js/787.dc43d0ed.chunk.js": "/sport-page/static/js/787.dc43d0ed.chunk.js",
+    "main.js": "/sport-page/static/js/main.12f0209a.js",
+    "static/js/787.420dceb0.chunk.js": "/sport-page/static/js/787.420dceb0.chunk.js",
     "static/media/background.jpeg": "/sport-page/static/media/background.bee1e6ea142cbeb0b7ec.jpeg",
     "static/media/ladder.png": "/sport-page/static/media/ladder.5386962ff6b3649c3847.png",
     "static/media/buy_tickets.jpeg": "/sport-page/static/media/buy_tickets.01c69e57f486f4950011.jpeg",
@@ -10,11 +10,11 @@
     "static/media/bettingodds.png": "/sport-page/static/media/bettingodds.74073501a4a0cf09a586.png",
     "index.html": "/sport-page/index.html",
     "main.811d8829.css.map": "/sport-page/static/css/main.811d8829.css.map",
-    "main.4bb232b8.js.map": "/sport-page/static/js/main.4bb232b8.js.map",
-    "787.dc43d0ed.chunk.js.map": "/sport-page/static/js/787.dc43d0ed.chunk.js.map"
+    "main.12f0209a.js.map": "/sport-page/static/js/main.12f0209a.js.map",
+    "787.420dceb0.chunk.js.map": "/sport-page/static/js/787.420dceb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.811d8829.css",
-    "static/js/main.4bb232b8.js"
+    "static/js/main.12f0209a.js"
   ]
 }
