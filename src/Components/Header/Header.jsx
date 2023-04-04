@@ -4,7 +4,7 @@ import scores from "../../images/scores.png";
 const Header = () => {
     return (
         <div className="Header">
-          <img style={{ width: "100%" }} src={scores} />
+          <img style={{width: "100%"}} src={scores} />
         </div>
     );
 };

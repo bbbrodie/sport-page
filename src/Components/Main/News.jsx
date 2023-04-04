@@ -50,15 +50,11 @@ const NewsCom = (props) => {
   )
 }
 
-
 export class News extends Component {
   render() {
     const {searchTerm} = this.props;
-    return (
+    return ( 
       <div>
-        <div>
-          <h3>News</h3>
-        </div>
         <div>
         {newsList
           .filter(news => `${news.title} ${news.location} ${news.hours}`.toUpperCase().indexOf(searchTerm.toUpperCase()) >= 0)

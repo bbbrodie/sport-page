@@ -5,7 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Navigation from "./Components/Navigation/Navigation";
-import styles from "./App.css"
+import backgroundM from "./images/background.jpeg"
 
 const App = () => {
   return (

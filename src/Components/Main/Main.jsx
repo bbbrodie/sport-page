@@ -11,6 +11,7 @@ const Main = () => {
             <Welcome />
             <Highlights />
             <PlayerStats />
+            <h3>News</h3>
             <News />
             <ContactUs />
         </div>
