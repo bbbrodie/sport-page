@@ -36,7 +36,15 @@
   background-color:#000000;
   text-align: center;
 }
-
+.PlayerStats {
+  text-align: center;
+}
+.News {
+  text-align: center;
+}
+.Welcome {
+  text-align: center;
+}
 /* Youtube iframe */
 .Highlights {
   width: 100%;
