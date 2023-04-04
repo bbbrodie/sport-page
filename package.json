@@ -1,5 +1,6 @@
 {
   "name": "sport-page",
+  "homepage": "https://bbbrodie.GitHub.io/github-pages-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.9",
     "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "react-stacked-center-carousel": "^1.0.12",
     "semantic-ui-css": "^2.5.0",
@@ -21,6 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

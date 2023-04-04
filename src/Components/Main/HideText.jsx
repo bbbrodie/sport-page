@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
 
-function HideNews (props) {
+function HideText (props) {
 
-  const maxChars = 250;
+  const maxChars = 200;
 
   const [hidden, setHidden] = useState(true);
 
@@ -26,4 +26,4 @@ function HideNews (props) {
 
 }
 
-export default HideNews;
+export default HideText;

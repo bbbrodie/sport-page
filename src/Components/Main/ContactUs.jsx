@@ -52,7 +52,6 @@ export default function ContactUs() {
                         {...register("message", { required: true, maxLength: 500 })}
                     />
                 </Form.Field>
-                {errors.password && <p>Please enter a message</p>}
                 <Button type='submit'>Submit</Button>
             </Form>
         </div>

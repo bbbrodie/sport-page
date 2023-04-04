@@ -68,12 +68,13 @@
 
 /* Table Styling */
 table {
-  margin: 40px;
+  margin: auto auto;
   width: 400px;
   height: 100px;
   border: 2px solid rgb(0, 0, 0);
   text-align: center;
-  white-space: nowrap
+  white-space: nowrap;
+  
 }
 th {
   border:  1px solid rgb(0, 0, 0);
@@ -153,17 +154,29 @@ ul.NavigationMenus li a:hover:after{
 }
 /* End Navigation */
 
-/* HideNews Links */
-.HideNews a {
+/* HideText Links */
+.HideText a {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
 }
-.HideNews a:hover {
+.HideText a:hover {
 	color: #FF00FF;
   font-weight: bold;
 }
-/* End HideNews Links */
+/* End HideText Links */
+
+/* Welcome Links */
+.Welcome a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+.Welcome a:hover {
+	color: #FF00FF;
+  font-weight: bold;
+}
+/* End Welcome Links */
 
 /* Links */
 a {

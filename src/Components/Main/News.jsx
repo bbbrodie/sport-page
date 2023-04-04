@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import EnhancedComponent from "./Search.jsx";
-import HideNews from "./HideNews";
+import HideText from "./HideText";
 
 const newsList = [
   {
@@ -34,13 +34,13 @@ const newsList = [
 
 const NewsCom = (props) => {
   return (
-    <div className="HideNews" id="News">
+    <div className="HideText" id="News">
       <hr />
       <p>
         <b>Headline:</b> {props.headline}
       </p>
       <p>
-        <b>Article:</b> <HideNews text={props.article}/>
+        <b>Article:</b> <HideText text={props.article}/>
       </p>
       <p>
         <b>Link:</b> {props.link}
